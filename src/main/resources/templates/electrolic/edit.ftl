@@ -51,6 +51,7 @@
     }
 
     .div2x {
+      position: absolute;
       width: 300px;
     }
   </style>
@@ -100,8 +101,6 @@
     </div>
     <button id="confirm">确定</button>
   </div>
-  <#--中间的横线-->
-  <hr style="width: 400px;float: left;"/>
 <#--编辑框里的内容-->
   <div class="div2">
   <#--编辑框第一行-->
@@ -121,9 +120,12 @@
   <script>
     $(function () {
       $("#confirm").click(function () {
-        alert($('#x_axis1').val()+'px');
-        // $("#input1).css("margin-left",50);
-        // $("#input1).attr("margin-top",$('#y_axis1').val()+'px');
+        $("#input1").css('margin-left',$('#x_axis1').val()+'px');
+        $("#input1").css('margin-top',$('#y_axis1').val()+'px');
+        $("#input2").css('margin-left',$('#x_axis2').val()+'px');
+        $("#input2").css('margin-top',$('#y_axis2').val()+'px');
+        $("#input3").css('margin-left',$('#x_axis3').val()+'px');
+        $("#input3").css('margin-top',$('#y_axis3').val()+'px');
 
       })
       /*第一排字体更换颜色*/
