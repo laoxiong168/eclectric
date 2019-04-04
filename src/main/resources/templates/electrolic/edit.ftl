@@ -41,6 +41,7 @@
     }
 
     .div2 {
+      background-color: #7EC4CC;
       border-radius: 8px;
       width: 800px;
       height: 400px;
@@ -61,6 +62,8 @@
 
     #input1, #input2, #input3 {
       border: none;
+      position: absolute;
+      background-color: transparent;
     }
   </style>
 </head>
@@ -115,11 +118,11 @@
 <#--编辑框里的内容-->
   <div class="div2">
   <#--编辑框第一行-->
-      <input id="input1" style="margin-top: 5px" readOnly="true">
+      <input id="input1" style="margin-top: 5px" readOnly="true" value="xxx有限公司">
   <#--编辑框第二行-->
-      <input id="input2" style="color: #00AA00" readOnly="true">
+      <input id="input2" style="color: #00AA00" readOnly="true" value="周杰伦">
   <#--编辑框第三行-->
-      <input id="input3" readOnly="true">
+      <input id="input3" readOnly="true" value="设计师">
   </div>
 
   <script>
