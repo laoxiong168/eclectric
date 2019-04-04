@@ -27,7 +27,7 @@
     <!-- 顶部 -->
     <div class="layui-header header">
         <div class="layui-main">
-            <a href="#" class="logo">后台管理系统</a>
+            <a href="#" class="logo">小黄狗</a>
             <!-- 显示/隐藏菜单 -->
             <a href="javascript:" class="iconfont hideMenu icon-menu1"></a>
             <#--<!-- 搜索 &ndash;&gt;-->

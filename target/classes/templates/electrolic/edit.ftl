@@ -54,6 +54,14 @@
       position: absolute;
       width: 300px;
     }
+
+    .div_every_line {
+      margin-top: 5px;
+    }
+
+    #input1, #input2, #input3 {
+      border: none;
+    }
   </style>
 </head>
 <body class="main_body">
@@ -67,102 +75,109 @@
       <button id="chage_img">换背景图</button>
     </div>
   <#--第一行字-->
-    <div>
+    <div class="div_every_line">
       第一行:
       坐标:
-      <input id="x_axis1"  style="width: 50px;" placeholder="横轴"/>-
-      <input id="y_axis1" style="width: 50px;" placeholder="纵轴"/>
+      <input id="x_axis1" style="width: 50px;" placeholder="横轴" oninput="value=value.replace(/[^\d]/g,'')"/>-
+      <input id="y_axis1" style="width: 50px;" placeholder="纵轴" oninput="value=value.replace(/[^\d]/g,'')"/>
       字号:
-      <input style="width: 50px"/>
+      <input id="size1" style="width: 30px" oninput="value=value.replace(/[^\d]/g,'')"/>
       颜色:
       <input id="input_color11" style="width: 30px;" readOnly="true"/>
+      <input id="input_computer" style="text-align: center" value="xxxx有限公司" placeholder="公司名"/>
     </div>
   <#--第二行字-->
-    <div>
+    <div class="div_every_line">
       第二行:
       坐标:
-      <input id="x_axis2" style="width: 50px;" placeholder="横轴"/>-
-      <input id="y_axis2" style="width: 50px;" placeholder="纵轴"/>
+      <input id="x_axis2" style="width: 50px;" placeholder="横轴" oninput="value=value.replace(/[^\d]/g,'')"/>-
+      <input id="y_axis2" style="width: 50px;" placeholder="纵轴" oninput="value=value.replace(/[^\d]/g,'')"/>
       字号:
-      <input style="width: 50px"/>
+      <input id="size2" style="width: 30px" oninput="value=value.replace(/[^\d]/g,'')"/>
       颜色:
       <input id="input_color12" style="width: 30px" readOnly="true"/>
+      <input id="input_user_name" style="text-align: center" value="周杰伦" placeholder="姓名"/>
     </div>
   <#--第三行字-->
-    <div>
+    <div class="div_every_line">
       第三行:
       坐标:
-      <input id="x_axis3" style="width: 50px;" placeholder="横轴"/>-
-      <input id="y_axis3" style="width: 50px;" placeholder="纵轴"/>
+      <input id="x_axis3" style="width: 50px;" placeholder="横轴" oninput="value=value.replace(/[^\d]/g,'')"/>-
+      <input id="y_axis3" style="width: 50px;" placeholder="纵轴" oninput="value=value.replace(/[^\d]/g,'')"/>
       字号:
-      <input style="width: 50px"/>
+      <input id="size3" style="width: 30px" oninput="value=value.replace(/[^\d]/g,'')"/>
       颜色:
       <input id="input_color13" style="width: 30px" readOnly="true"/>
+      <input id="input_position" style="text-align: center" value="设计经理" placeholder="职位"/>
     </div>
-    <button id="confirm">确定</button>
+    <button id="confirm" style="margin-top: 5px">确定</button>
   </div>
 <#--编辑框里的内容-->
   <div class="div2">
   <#--编辑框第一行-->
-    <div id="div21" class="div2x">
-      <input id="input1" style="height: 40px;margin-top: 5px">
-    </div>
+      <input id="input1" style="margin-top: 5px" readOnly="true">
   <#--编辑框第二行-->
-    <div id="div22" class="div2x">
-      <input id="input2" style="color: #00AA00">
-    </div>
+      <input id="input2" style="color: #00AA00" readOnly="true">
   <#--编辑框第三行-->
-    <div id="div23" class="div2x">
-      <input id="input3">
-    </div>
+      <input id="input3" readOnly="true">
   </div>
 
   <script>
     $(function () {
-      $("#confirm").click(function () {
-        $("#input1").css('margin-left',$('#x_axis1').val()+'px');
-        $("#input1").css('margin-top',$('#y_axis1').val()+'px');
-        $("#input2").css('margin-left',$('#x_axis2').val()+'px');
-        $("#input2").css('margin-top',$('#y_axis2').val()+'px');
-        $("#input3").css('margin-left',$('#x_axis3').val()+'px');
-        $("#input3").css('margin-top',$('#y_axis3').val()+'px');
 
-      })
-      /*第一排字体更换颜色*/
-      $('#input_color11').colpick(
-          {
-            layout: 'rgbhex',
-            onSubmit: function (hsb, hex, rgb, el) {
-               $(el).css('background-color', '#' + hex);
-               $("#input1").css('color', '#' + hex);
-              $(el).colpickHide();
-            }
-          }
-      );
-      /*第二排字体更换颜色*/
-      $('#input_color12').colpick(
-          {
-            layout: 'rgbhex',
-            onSubmit: function (hsb, hex, rgb, el) {
-               $(el).css('background-color', '#' + hex);
-               $("#input2").css('color', '#' + hex);
-              $(el).colpickHide();
-            }
-          }
-      );
-      /*第三排字体更换颜色*/
-      $('#input_color13').colpick(
-          {
-            layout: 'rgbhex',
-            onSubmit: function (hsb, hex, rgb, el) {
-               $(el).css('background-color', '#' + hex);
-               $("#input3").css('color', '#' + hex);
-              $(el).colpickHide();
-            }
-          }
-      );
-      /*下排编辑框的更换颜色*/
-      $('#change_background_color').colpick(
+          /*确定按钮*/
+          $("#confirm").click(function () {
+            /*改变坐标*/
+            $("#input1").css('margin-left', $('#x_axis1').val() + 'px');
+            $("#input1").css('margin-top', $('#y_axis1').val() + 'px');
+            $("#input2").css('margin-left', $('#x_axis2').val() + 'px');
+            $("#input2").css('margin-top', $('#y_axis2').val() + 'px');
+            $("#input3").css('margin-left', $('#x_axis3').val() + 'px');
+            $("#input3").css('margin-top', $('#y_axis3').val() + 'px');
+            /*改变三行的内容*/
+            $("#input1").val($('#input_computer').val());
+            $("#input2").val($('#input_user_name').val());
+            $("#input3").val($('#input_position').val());
+            /*设置字号大小*/
+            $("#input1").css('font-size',$('#size1').val()+'px');
+            $("#input2").css('font-size',$('#size2').val()+'px');
+            $("#input3").css('font-size',$('#size3').val()+'px');
+          })
+          /*第一排字体更换颜色*/
+          $('#input_color11').colpick(
+              {
+                layout: 'rgbhex',
+                onSubmit: function (hsb, hex, rgb, el) {
+                  $(el).css('background-color', '#' + hex);
+                  $("#input1").css('color', '#' + hex);
+                  $(el).colpickHide();
+                }
+              }
+          );
+          /*第二排字体更换颜色*/
+          $('#input_color12').colpick(
+              {
+                layout: 'rgbhex',
+                onSubmit: function (hsb, hex, rgb, el) {
+                  $(el).css('background-color', '#' + hex);
+                  $("#input2").css('color', '#' + hex);
+                  $(el).colpickHide();
+                }
+              }
+          );
+          /*第三排字体更换颜色*/
+          $('#input_color13').colpick(
+              {
+                layout: 'rgbhex',
+                onSubmit: function (hsb, hex, rgb, el) {
+                  $(el).css('background-color', '#' + hex);
+                  $("#input3").css('color', '#' + hex);
+                  $(el).colpickHide();
+                }
+              }
+          );
+          /*下排编辑框的更换颜色*/
+          $('#change_background_color').colpick(
               {
                 layout: 'rgbhex',
                 onSubmit: function (hsb, hex, rgb, el) {
@@ -175,11 +190,6 @@
                 }
               }
           );
-
-
-
-
-
 
         }
     )

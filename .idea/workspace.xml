@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05145b9e-e772-4919-8b81-6760f6c0f1af" name="Default Changelist" comment="新增登录用户admin  123456 账号">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/electrolic/edit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/electrolic/edit.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +28,8 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="CSS" value="2" />
-          <entry key="FTL" value="14" />
-          <entry key="JAVA" value="13" />
+          <entry key="FTL" value="16" />
+          <entry key="JAVA" value="14" />
           <entry key="JavaScript" value="2" />
           <entry key="SQL" value="2" />
           <entry key="YAML" value="1" />
@@ -34,7 +37,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="FTL" value="1980" />
+          <entry key="FTL" value="2492" />
           <entry key="JAVA" value="226" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
@@ -46,8 +49,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/DictController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            <state relative-caret-position="254">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+              <folding>
+                <element signature="e#4463#4464#0" expanded="true" />
+                <element signature="e#4493#4494#0" expanded="true" />
+                <element signature="e#5499#5500#0" expanded="true" />
+                <element signature="e#5608#5609#0" expanded="true" />
+                <element signature="e#7387#7388#0" expanded="true" />
+                <element signature="e#7482#7483#0" expanded="true" />
+                <element signature="e#7620#7621#0" expanded="true" />
+                <element signature="e#7715#7716#0" expanded="true" />
+                <element signature="e#7853#7854#0" expanded="true" />
+                <element signature="e#7948#7949#0" expanded="true" />
+                <element signature="e#8096#8097#0" expanded="true" />
+                <element signature="e#8201#8202#0" expanded="true" />
+                <element signature="e#8337#8338#0" expanded="true" />
+                <element signature="e#8430#8431#0" expanded="true" />
+                <element signature="e#8568#8569#0" expanded="true" />
+                <element signature="e#8593#8594#0" expanded="true" />
+                <element signature="e#8734#8735#0" expanded="true" />
+                <element signature="e#8785#8786#0" expanded="true" />
+                <element signature="e#8939#8940#0" expanded="true" />
+                <element signature="e#9034#9035#0" expanded="true" />
+                <element signature="e#9177#9178#0" expanded="true" />
+                <element signature="e#9286#9287#0" expanded="true" />
+                <element signature="e#9429#9430#0" expanded="true" />
+                <element signature="e#9538#9539#0" expanded="true" />
+                <element signature="e#9681#9682#0" expanded="true" />
+                <element signature="e#9790#9791#0" expanded="true" />
+                <element signature="e#10222#10223#0" expanded="true" />
+                <element signature="e#10335#10336#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,34 +97,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/electrolic/edit.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+            <state relative-caret-position="400">
+              <caret line="124" column="10" lean-forward="true" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#2;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#3;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#4;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#2;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#3;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#4;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog/share.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="71" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -112,6 +149,11 @@
       <find>class=&quot;logo&quot;</find>
       <find>list</find>
       <find>后台</find>
+      <find>/login</find>
+      <find>用户名</find>
+      <find>验证码超时</find>
+      <find>后台管理系统</find>
+      <find>readone</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,12 +162,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.ftl" />
         <option value="$PROJECT_DIR$/src/test/java/com/mysiteforme/admin/TestZipUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/web/ElectrolicController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/SpringCompletedServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/DictController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/electrolic/edit.ftl" />
       </list>
@@ -137,10 +180,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-33" />
-    <option name="y" value="217" />
-    <option name="width" value="1091" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="482" />
+    <option name="y" value="610" />
+    <option name="width" value="1359" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -199,7 +242,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554367939209" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554371726572" />
     <property name="last_opened_file_path" value="D:/SvnCode/bi" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -271,7 +314,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553848054078</updated>
       <workItem from="1553848056171" duration="12063000" />
-      <workItem from="1554084563475" duration="24399000" />
+      <workItem from="1554084563475" duration="27978000" />
     </task>
     <task id="LOCAL-00001" summary="新增登录用户admin  123456 账号">
       <created>1554365547056</created>
@@ -295,7 +338,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36462000" />
+    <option name="totallyTimeSpent" value="40041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -429,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="92" column="43" lean-forward="true" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/realm/AuthRealm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -489,13 +525,6 @@
         <state relative-caret-position="-3669" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/blog/articleContent.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7858" />
@@ -505,20 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2925">
           <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/DictController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -567,25 +582,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/DictController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+          <folding>
+            <element signature="e#4463#4464#0" expanded="true" />
+            <element signature="e#4493#4494#0" expanded="true" />
+            <element signature="e#5499#5500#0" expanded="true" />
+            <element signature="e#5608#5609#0" expanded="true" />
+            <element signature="e#7387#7388#0" expanded="true" />
+            <element signature="e#7482#7483#0" expanded="true" />
+            <element signature="e#7620#7621#0" expanded="true" />
+            <element signature="e#7715#7716#0" expanded="true" />
+            <element signature="e#7853#7854#0" expanded="true" />
+            <element signature="e#7948#7949#0" expanded="true" />
+            <element signature="e#8096#8097#0" expanded="true" />
+            <element signature="e#8201#8202#0" expanded="true" />
+            <element signature="e#8337#8338#0" expanded="true" />
+            <element signature="e#8430#8431#0" expanded="true" />
+            <element signature="e#8568#8569#0" expanded="true" />
+            <element signature="e#8593#8594#0" expanded="true" />
+            <element signature="e#8734#8735#0" expanded="true" />
+            <element signature="e#8785#8786#0" expanded="true" />
+            <element signature="e#8939#8940#0" expanded="true" />
+            <element signature="e#9034#9035#0" expanded="true" />
+            <element signature="e#9177#9178#0" expanded="true" />
+            <element signature="e#9286#9287#0" expanded="true" />
+            <element signature="e#9429#9430#0" expanded="true" />
+            <element signature="e#9538#9539#0" expanded="true" />
+            <element signature="e#9681#9682#0" expanded="true" />
+            <element signature="e#9790#9791#0" expanded="true" />
+            <element signature="e#10222#10223#0" expanded="true" />
+            <element signature="e#10335#10336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2025">
+          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/electrolic/edit.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+        <state relative-caret-position="400">
+          <caret line="124" column="10" lean-forward="true" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#3;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#4;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#3;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#4;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

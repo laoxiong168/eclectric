@@ -42,18 +42,15 @@
         <div class="layui-form-item">
             <input class="layui-input" name="password" placeholder="密码" lay-verify="required" type="password" autocomplete="off">
         </div>
-        <div class="layui-form-item form_code">
-            <input class="layui-input" name="code" placeholder="验证码" lay-verify="required" type="text" autocomplete="off">
-            <div class="code"><img src="${base}/genCaptcha" width="116" height="36" id="mycode"></div>
-        </div>
+        <#--<div class="layui-form-item form_code">-->
+            <#--<input class="layui-input" name="code" placeholder="验证码" lay-verify="required" type="text" autocomplete="off">-->
+            <#--<div class="code"><img src="${base}/genCaptcha" width="116" height="36" id="mycode"></div>-->
+        <#--</div>-->
         <div class="layui-form-item">
             <input type="checkbox" name="rememberMe" value="true" lay-skin="primary" checked title="记住帐号?">
         </div>
         <button class="layui-btn login_btn" lay-submit="" lay-filter="login">登录</button>
     </form>
-</div>
-<div class="loginTip">
-    <span>用户名:admin &nbsp;&nbsp;&nbsp;密码:123456</span>
 </div>
 <script type="text/javascript" src="${base}/static/layui/layui.js"></script>
 <script type="text/javascript" src="${base}/static/js/jquery.min.js"></script>
