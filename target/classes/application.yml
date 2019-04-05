@@ -106,9 +106,9 @@ spring:
         min-idle: 5       # 连接池中的最小空闲连接
   # 数据源配置
   datasource:
-    url: jdbc:mysql://10.10.10.207:3306/my_test?useUnicode=true&characterEncoding=utf8&useSSL=false&tinyInt1isBit=true
-    username: dev
-    password: DEVuser2018#
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&tinyInt1isBit=true
+    username: test
+    password: 123456
 
 #日志
 logging:
